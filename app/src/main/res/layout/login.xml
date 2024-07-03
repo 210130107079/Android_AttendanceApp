@@ -36,20 +36,21 @@
             android:layout_gravity="end"
             android:textAlignment="textEnd"
             android:textColor="@color/colorAccent"
-            android:textSize="22sp"
+            android:textSize="35dp"
             tools:targetApi="jelly_bean"
             tools:ignore="HardcodedText"
-            android:layout_marginLeft="75dp" />
+            android:layout_marginLeft="55dp" />
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="start"
-            android:layout_marginLeft="5dp"
+            android:layout_marginLeft="20dp"
             android:text="Login"
+            android:fontFamily="sans-serif-smallcaps"
             android:textAlignment="viewStart"
             android:textColor="@color/colorAccent"
-            android:textSize="30sp"
+            android:textSize="35dp"
             android:layout_marginStart="5dp"
             tools:ignore="HardcodedText" />
     </LinearLayout>
@@ -69,6 +70,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:hint="Username"
+            android:fontFamily="sans-serif-smallcaps"
             android:paddingRight="10dp"
             android:textColor="@android:color/white"
             android:textColorHint="@android:color/white"/>
@@ -87,6 +89,7 @@
                     android:paddingRight="40dp"
                     android:textColor="@android:color/white"
                     android:hint="Password"
+                    android:fontFamily="sans-serif-smallcaps"
                     android:textColorHint="@android:color/white"
                     android:inputType="textPassword"/>
             </RelativeLayout>
@@ -112,6 +115,8 @@
             android:layout_height="60dp"
             android:onClick="login"
             android:text="Login"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif-smallcaps"
             android:textColor="@android:color/white"
             android:background="@drawable/loginbutt"
             android:layout_weight="1"/>

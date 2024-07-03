@@ -20,7 +20,7 @@ public class ViewAttandanceActivity extends Activity {
 
 	Spinner spinnerbranch,spinneryear;
 	String userrole,branch,year;
-	private String[] branchString = new String[] { "cse"};
+	private String[] branchString = new String[] { "CSE"};
 	private String[] yearString = new String[] {"SE","TE","BE"};
 
 	@Override

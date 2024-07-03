@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorAccent"
+    android:background="#00bcd4"
     android:orientation="vertical" >
 
    <RadioGroup
@@ -17,7 +17,9 @@
             android:layout_height="wrap_content"
             android:focusable="false"
 			android:focusableInTouchMode="false"
-            android:text="Present" />
+            android:text="Present"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif-smallcaps"/>
 
         <RadioButton
             android:id="@+id/AbsentradioButton"
@@ -25,14 +27,19 @@
             android:layout_height="wrap_content"
             android:focusable="false"
 			android:focusableInTouchMode="false"
-            android:text="Absent" />
+            android:text="Absent"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif-smallcaps"/>
 
         <Button
             android:id="@+id/attendanceSubmitButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
-            android:text="Submit" />
+            android:background="@drawable/shadow"
+            android:text="Submit"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"/>
 
     </RadioGroup>
 </LinearLayout>

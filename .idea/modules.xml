@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Android-Attendance-App.iml" filepath="$PROJECT_DIR$/Android-Attendance-App.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-Attendance-App.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-Attendance-App.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-Attendance-App.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-Attendance-App.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-Attendance-App.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-Attendance-App.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android-Attendance-App.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android-Attendance-App.app.unitTest.iml" />
     </modules>
   </component>
 </project>

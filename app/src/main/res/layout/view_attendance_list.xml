@@ -6,6 +6,8 @@
         android:layout_height="fill_parent"
         android:padding="10dip"
         android:textSize="16dip"
-    android:background="@color/colorAccent"
-        android:textStyle="bold" >
+        android:background="@color/colorAccent"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:backgroundTint="#00bcd4">
 </TextView>

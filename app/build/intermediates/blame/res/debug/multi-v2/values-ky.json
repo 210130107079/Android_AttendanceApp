@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Downloads\\Android-Attendance-App-source code\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ky\\values-ky.xml",
+            "outputFile": "C:\\Users\\soham\\AndroidStudioProjects\\Android-Attendance-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ky\\values-ky.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ATOM\\.gradle\\caches\\transforms-2\\files-2.1\\acedb5a439482afea3702661a6a2cc74\\support-compat-26.1.0\\res\\values-ky\\values-ky.xml",
+                    "source": "C:\\Users\\soham\\.gradle\\caches\\transforms-2\\files-2.1\\6b9b7dfdbd879b300770c5bb51739e4b\\support-compat-26.1.0\\res\\values-ky\\values-ky.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

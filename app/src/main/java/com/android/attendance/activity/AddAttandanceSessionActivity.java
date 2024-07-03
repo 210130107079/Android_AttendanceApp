@@ -44,17 +44,17 @@ public class AddAttandanceSessionActivity<AddAttandanceActivity> extends Activit
 	Button viewAttendance;
 	Button viewTotalAttendance;
 	Spinner spinnerbranch,spinneryear,spinnerSubject;
-	String branch = "BCA";
+	String branch = "BE";
 	String year = "1st";
 	String subject = "SC";
 
-	private String[] branchString = new String[] { "BCA"};
+	private String[] branchString = new String[] { "BE"};
 	private String[] yearString = new String[] {"1st","2nd","3rd"};
-	private String[] subjectSEString = new String[] {"SC","MC"};
-	private String[] subjectTEString = new String[] {"GT","CN"};
-	private String[] subjectBEString = new String[] {"DS","NS"};
+	private String[] subjectSEString = new String[] {"AI","ML"};
+	private String[] subjectTEString = new String[] {"DS","CN"};
+	private String[] subjectBEString = new String[] {"CS","CC"};
 
-	private String[] subjectFinal = new String[] {"DBMS","JAVA","CN","NM"};
+	private String[] subjectFinal = new String[] {"ADA","JAVA","SE","CD"};
 	AttendanceSessionBean attendanceSessionBean;
 
 	@Override

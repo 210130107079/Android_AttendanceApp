@@ -4,8 +4,10 @@
     android:id="@+id/label"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-    android:background="@color/colorAccent"
+        android:background="@color/colorAccent"
         android:padding="10dip"
         android:textSize="16dip"
-        android:textStyle="bold" >
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:backgroundTint="#00bcd4">
 </TextView>

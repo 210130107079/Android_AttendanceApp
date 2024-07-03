@@ -37,7 +37,7 @@
             android:text="Registration"
             android:textAlignment="center"
             android:textColor="@color/colorAccent"
-            android:textSize="25dp" />
+            android:textSize="30dp" />
 
     </LinearLayout>
     <LinearLayout
@@ -56,6 +56,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:hint="First Name"
+            android:fontFamily="sans-serif-smallcaps"
             android:inputType="text"
             android:textColorHint="@android:color/white"/>
         <EditText
@@ -64,6 +65,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:hint="Last Name"
+            android:fontFamily="sans-serif-smallcaps"
             android:inputType="text"
             android:textColorHint="@android:color/white" />
         <EditText
@@ -72,6 +74,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:hint="Mobile no."
+            android:fontFamily="sans-serif-smallcaps"
             android:inputType="number"
             android:textColorHint="@android:color/white" />
         <EditText
@@ -80,6 +83,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:hint="Address"
+            android:fontFamily="sans-serif-smallcaps"
             android:inputType="text"
             android:textColorHint="@android:color/white" />
         <EditText
@@ -88,6 +92,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:hint="Username"
+            android:fontFamily="sans-serif-smallcaps"
             android:textColorHint="@android:color/white" />
         <EditText
             android:id="@+id/editTextPassword"
@@ -95,6 +100,7 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:hint="Password"
+            android:fontFamily="sans-serif-smallcaps"
             android:textColorHint="@android:color/white" />
     </LinearLayout>
     <LinearLayout
@@ -109,7 +115,9 @@
             android:layout_width="0dp"
             android:layout_height="60dp"
             android:text="Submit"
-            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
             android:textColor="@android:color/white"
             android:background="@drawable/loginbutt"
             android:layout_weight="1"/>
@@ -118,7 +126,8 @@
             android:layout_width="0dp"
             android:layout_height="60dp"
             android:text="Cancel"
-            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_marginTop="15dp"
             android:textColor="@android:color/white"
             android:background="@drawable/loginbutt"
             android:layout_weight="1"/>

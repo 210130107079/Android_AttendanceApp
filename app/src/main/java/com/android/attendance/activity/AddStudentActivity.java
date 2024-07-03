@@ -31,7 +31,7 @@ public class AddStudentActivity extends Activity {
 	EditText textaddress;
 	Spinner spinnerbranch,spinneryear;
 	String userrole,branch,year;
-	private String[] branchString = new String[] { "BCA"};
+	private String[] branchString = new String[] { "BE"};
 	private String[] yearString = new String[] {"1st","2nd","3rd"};
 
 	@Override

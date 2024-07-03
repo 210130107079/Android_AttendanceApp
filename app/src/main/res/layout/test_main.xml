@@ -13,7 +13,9 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="@string/hello_world"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-smallcaps"/>
 
     <Button
         android:id="@+id/button1"
@@ -22,6 +24,9 @@
         android:layout_below="@+id/textView1"
         android:layout_marginTop="129dp"
         android:layout_toRightOf="@+id/textView1"
-        android:text="done" />
+        android:text="Done"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/shadow"
+        android:fontFamily="sans-serif-smallcaps"/>
 
 </RelativeLayout>

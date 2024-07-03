@@ -14,14 +14,15 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1.5"
-            android:background="@color/colorPrimary"/>
+            android:background="@color/colorPrimary" />
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:src="@drawable/imsuc"
             android:layout_weight="1"
-            android:background="@color/colorAccent"/>
+            android:layout_marginTop="30dp"
+            android:background="@color/colorAccent"
+            android:src="@drawable/download" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,11 +36,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-smallcaps"
-            android:text="Attendance Management System"
+            android:text="AttendEase"
             android:layout_gravity="end"
             android:textAlignment="center"
             android:textColor="@color/colorAccent"
-            android:textSize="22sp"
+            android:textSize="30dp"
             tools:targetApi="jelly_bean"
             android:layout_marginEnd="5dp"
             tools:ignore="HardcodedText"
@@ -64,7 +65,9 @@
             android:background="@color/colorPrimary"
             android:layout_marginTop="10dp"
             android:layout_weight="1"
-            android:text="Welcome"
+            android:text="WELCOME"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-smallcaps"
             android:textColor="@android:color/white"
             android:layout_marginStart="8dp"
             tools:ignore="HardcodedText" />
